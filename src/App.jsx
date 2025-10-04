@@ -22,4 +22,16 @@ function App() {
             <Routes>
               <Route path="/" element={<Inicio />} />
               <Route path="/saludo" element={<Saludo />} />
-              <Route path="/tareas" elem
+              <Route path="/tareas" element={<Tareas />} />
+              <Route path="/usuarios" element={<Usuarios />} />
+              <Route path="/reloj" element={<Reloj />} />
+              <Route path="*" element={<NoEncontrada />} />
+            </Routes>
+          </div>
+        </div>
+      </div>
+    </BrowserRouter>
+  )
+}
+
+export default App
